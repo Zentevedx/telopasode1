@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título del anuncio"
+        android:inputType="text"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/edtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción del anuncio"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/edtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittext_background" />
+
+    <Button
+        android:id="@+id/btnSubirImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subir Imagen"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/orange2" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Anuncio"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Anuncio"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black" />
+
+</LinearLayout>
